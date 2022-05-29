@@ -1,0 +1,7 @@
+apt update && apt upgrade -y
+apt install git curl python3-pip ffmpeg -y
+pip3 install -U pip
+git clone https://github.com/UNBEATABLE-BOY/ESBOT_MUSIC_BOT esbotdir
+cd esbotdir
+pip3 install -U -r requirements.txt
+python3 main.py

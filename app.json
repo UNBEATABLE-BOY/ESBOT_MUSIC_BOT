@@ -1,0 +1,59 @@
+{
+    "name": "ESBOT-MUSCI-BOT",
+    "description": "ESBOT ALLOW YOU TO PLAY MUSIC IN TELEGRAM'S VOICE CHAT.",
+    "keywords": ["ESBOT", "ESBOT-MUSIC-BOT"],
+    "repository": "https://github.com/UNBEATABLE-BOY/ESBOT_MUSIC_BOT",
+  "stack": "container",
+    "env": {
+        "SESSION_NAME": {
+            "description": "PYROGRAM STRING SESSION OF ASSISTANT",
+            "required": true
+        },
+        "ASSISTANT_NAME": {
+            "description": "USERNAME OF ASSISTANT. THIS WILL BE YOUR BOT OWNER TOO",
+            "required": true,
+            "value": "ESBOT_ASSISTANT"
+        },
+        "BOT_USERNAME": {
+            "description": "BOT USERNAME FROM BOTFATHER",
+            "required": true,
+            "value": "ESBOT_MUSIC2_BOT"
+        },
+        "API_ID": {
+            "description": "APP_ID OF YOUR ASSISTANT ACCOUNT",
+            "required": true,
+            "value": "6435225"
+        },
+        "API_HASH": {
+            "description": "APP_HASH OF YOUR ASSISTANT ACCOUNT",
+            "required": false,
+            "value": "4e984ea35f854762dcde906dce426c2d"
+        },
+        "GROUP_SUPPORT": {
+            "description": "GROUP FOR SUPPORTING USER OF ESBOT",
+            "required": false,
+            "value": "ESBOT_HELP"
+        },
+        "UPDATES_CHANNEL": {
+            "description": "CHANNEL FOR UPDATE",
+            "required": false,
+            "value": "LIFE_CODES"
+        },
+        "SUDO_USERS": {
+            "description": "SUDO USERS FOR ESBOT_MUSIC_BOT (SEPRETE BY SPACE)",
+            "required": true,
+            "value": "928173912"
+        },
+        "DURATION_LIMIT": {
+            "description": "FILLED ALREADY FOR 900 MINS",
+            "required": true,
+            "value": "540000"
+        },
+        "BOT_TOKEN": {
+            "description": "TOKEN OF THE BOT",
+            "required": true,
+            "value": ""
+        }
+
+    }
+  }
